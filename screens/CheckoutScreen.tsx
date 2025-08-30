@@ -30,7 +30,7 @@ export default function CheckoutScreen() {
 
   return (
 
-    <ImageBackground source={require('../assets/pexels-josh-hild-1270765-14391270.jpg')} resizeMode='cover' style={{ flex: 1 }}>
+    <ImageBackground source={require('../assets/pexels-josh-hild-1270765-14391270.jpg')} resizeMode='cover' style={{ flex: 1 , alignItems: 'center', justifyContent: 'center'}}>
 
       <ScrollView
         contentContainerStyle={{
